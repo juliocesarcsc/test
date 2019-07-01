@@ -1,0 +1,146 @@
+.assess-wrap * {
+    text-align: center;
+    font-family: "Montserrat-Regular";
+}
+
+.assess-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.assess-title {
+    color: #1768C4;
+}
+
+#assess-content {
+    display: flex;
+    padding: 10px;
+}
+
+#assess-content > div {
+    margin: 10px;
+}
+
+.answers {
+    width: 150px;
+    box-shadow: 0px 0px 10px lightgrey !important;
+    border-radius: .2rem;
+}
+
+.answers > div {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.answers > div:last-child {
+    border-bottom: none;
+    border-radius:  0 0 4px 4px !important;
+}
+
+.answers > div:first-child {
+    border-radius: 4px 4px 0 0 !important;
+}
+
+.answers > div.answers-up {
+    color: #00AF5C;
+}
+
+.answers > div.answers-down {
+    color: #0097F5;
+}
+
+.answers-up.cactive {
+    background-color: #00AF5C;
+    color: #fff !important;
+    box-shadow: 4px 0 0 #00AF5C, -4px 0 0 #00AF5C, 4px 4px 8px grey;
+    border: none !important;
+}
+
+.answers-down.cactive {
+    background-color: #1768C4;
+    color: #fff !important;
+    box-shadow: 4px 0 0 #1768C4, -4px 0 0 #1768C4, 4px 4px 8px grey;
+    border: none !important;
+}
+
+.btns-content {
+    display: flex;
+}
+
+.btns-content > div {
+    display: flex;
+    flex: 1;
+}
+
+#assessed-name, #other-name {
+    padding: 10px;
+    color: #1768C4;
+    flex: 1;
+}
+
+.question-title, .question-footer {
+    color: #2B2B2B;
+    padding: 10px 0;
+}
+
+#center {
+    padding: 10px 0;
+}
+
+.subtitle-wrap {
+    display: flex;
+}
+
+.answers-separator {
+    color: transparent;
+    background-color: #FFCA3F;
+}
+
+.custom-card-title {
+    color: #0000ff !important;
+    font-family: Montserrat-Regular !important;
+    text-align: center;
+    font-size: 18px;
+}
+
+.custom-card-breadcrum {
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    color: #565758;
+}
+
+.myicon-info {
+    transform: rotate(180deg);
+    margin: 0 0 2px 4px;
+}
+
+/*start ovewrite steeper styles*/
+.MuiStepIcon-text {
+    fill: #fff !important;
+    font-size: 1rem !important;
+    font-family: Montserrat-Regular !important;
+}
+
+/*end ovewrite steeper styles*/
+
+/*start ovewrite slider styles*/
+.slider-wrap .MuiSlider-vertical .MuiSlider-rail {
+    width: 3px;
+    background-color: #F2F2F2;
+}
+
+.slider-wrap .MuiSlider-vertical .MuiSlider-track {
+    width: 3px;
+}
+
+.slider-wrap .MuiSlider-root {
+    width: 3px;
+    color: #FFCA3F !important;
+}
+
+.slider-wrap .MuiSlider-thumb {
+    width: 16px;
+    height: 16px;
+}
+
+/*end ovewrite slider styles*/
